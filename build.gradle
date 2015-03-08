@@ -95,11 +95,10 @@ project(":html") {
 project(":core") {
     apply plugin: "java"
 
-
     dependencies {
         compile "com.badlogicgames.gdx:gdx:$gdxVersion"
         compile "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
-        compile "kryonet:kryonet-all:2.21"
+        compile fileTree(dir: 'libs', include: ['*.jar'])
     }
 }
 

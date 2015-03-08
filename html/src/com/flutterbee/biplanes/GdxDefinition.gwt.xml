@@ -5,6 +5,7 @@
 	<inherits name='com.badlogic.gdx.physics.box2d.box2d-gwt' />
 
 	<inherits name='Biplanes' />
+    <inherits name='com.badlogic.ashley' />
 	<entry-point class='com.flutterbee.biplanes.client.HtmlLauncher' />
 	
 	<set-configuration-property name="gdx.assetpath" value="../android/assets" />

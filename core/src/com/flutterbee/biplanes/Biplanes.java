@@ -14,7 +14,7 @@ public class Biplanes extends Game {
 
 		//Use LibGDX's default Arial font.
         font = new BitmapFont();
-        this.setScreen(new MainMenuScreen(this));
+        this.setScreen(new GameScreen(this, false, null));
 	}
 	
 	@Override
